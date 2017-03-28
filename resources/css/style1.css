@@ -1,5 +1,6 @@
 
-.header {
+
+header {
   display: flex;
   font-family: Verdana;
   font-size: 14px;
@@ -9,18 +10,125 @@
   position: fixed;
   z-index: 1;
   width: 100%;
-  color: MediumAquamarine;
+  background-color: white;
+  border-bottom: 2px solid black;
 }
 
+.header {
+  display:  flex;
+  color:  MediumAquamarine;
+  padding-left: 20px;
+  flex-grow:  1;
+  align-items:  center;
+}
 
 nav {
   display:  flex;
   width: 400px;
   text-decoration: underline;
   align-items: center;
-  justify-content: flex-end;
+  justify-content: space-between;
+  padding-right: 50px;
 }
 
-.border {
-  border: 1px solid black;
+.header span {
+  display: flex;
+  padding-left: 10px;
+}
+
+header nav  {
+width: 300px;
+}
+
+.content  {
+  display: flex;
+  padding-top: 65px;
+  width: 100%;
+  font-family: Georgia;
+  font-size: 17px;
+  color: black;
+  justify-content: space-around;
+}
+
+.title  {
+    font-size: 30px;
+    font-weight: bold;
+}
+
+.large-content  {
+  display: flex;
+  width: 630px;
+  flex-wrap: wrap;
+}
+
+.main {
+  display: flex;
+  width: 100%;
+  flex-wrap: wrap;
+}
+
+.main-title span  {
+  font-size: 40px;
+  justify-content: center;
+  align-items: center;
+}
+
+.main-title {
+  background-image: url(../images/main-story.png);
+  color: white;
+  height: 300px;
+  width: 100%;
+}
+
+.rowtwo {
+  display: flex;
+  justify-content: space-between;
+}
+
+.secondary  {
+  display: flex;
+  width: 50%;
+  flex-direction: column;
+}
+
+.secondary-image  {
+  background-image: url(../images/fall-img.png);
+  color: white;
+  height: 300px;
+  width: 300px;
+}
+
+.third  {
+  display: flex;
+  width: 50%;
+  flex-direction: column;
+}
+
+.third-image  {
+  background-image: url(../images/freaking-hipster.png);
+  color: white;
+  height: 300px;
+  width: 300px;
+}
+
+.medium-content {
+  display: flex;
+  width: 300px;
+  flex-direction: column;
+}
+
+.medium-second-title  {
+  background-image: url(../images/cat-ceo.png);
+  color: white;
+  height: 300px;
+}
+
+.small-content  {
+  display: flex;
+  width: 240px;
+  flex-direction: column;
+}
+
+.small-image  {
+  height: 240px;
 }
