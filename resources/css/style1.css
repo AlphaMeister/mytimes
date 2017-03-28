@@ -1,0 +1,25 @@
+
+.header {
+  display: flex;
+  font-family: Verdana;
+  font-size: 14px;
+  font-weight: bold;
+  align-items: center;
+  height 80px;
+  position: fixed;
+  z-index: 1;
+  width: 100%;
+  color: MediumAquamarine;
+}
+
+nav {
+  display:  flex;
+  width: 400px;
+  text-decoration: underline;
+  align-items: center;
+  justify-content: flex-end;
+}
+
+.border {
+  border: 1px solid black;
+}

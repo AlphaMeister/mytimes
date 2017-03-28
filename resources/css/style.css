@@ -1,0 +1,119 @@
+header {
+  display: flex;
+  font-family: Verdana;
+  font-size: 14px;
+  font-weight: bold;
+  align-items: center;
+  height 80px;
+  position: fixed;
+  z-index: 1;
+  width: 100%;
+}
+
+.logo {
+  display: flex;
+  color: MediumAquamarine;
+  align-items: center;
+  padding-left: 20px;
+  width: 200px;
+  border: 1px solid black;
+  flex-grow: 1;
+}
+
+.logo span {
+  display: flex;
+  padding-left: 10px;
+}
+
+nav {
+  display: inline-flex;
+  width: 400px;
+  text-decoration: underline;
+  align-items: center;
+  padding-right: 50px;
+}
+
+.content  {
+  padding-top: 80px;
+  display: flex;
+  border: 1px solid black;
+}
+
+.content-large {
+  display: flex;
+  border: 1px solid black;
+  flex-direction: column;
+  width: 630px;
+
+}
+
+.main-story {
+  border: 1px solid black;
+  width: 100%;
+  background-image: url(../images/main-story.png);
+}
+
+.main-story-title {
+  border: 1px solid black;
+}
+
+.secondary-stories  {
+  display: flex;
+  border: 1px solid black;
+  width: 100%;
+}
+
+.fall {
+  border: 1px solid black;
+}
+
+.fall-img {
+  border: 1px solid black;
+  width:  50%;
+}
+
+.freaking-hipster {
+  border: 1px solid black;
+  width: 50%;
+}
+
+.pop-culture  {
+  border: 1px solid black;
+}
+
+
+
+.content-medium {
+  border: 1px solid black;
+  display: flex;
+  flex-direction: column;
+  width: 300px;
+}
+
+.text-story {
+  border: 1px solid black;
+}
+
+.cat-ceo  {
+  border: 1px solid black;
+}
+
+.cat-title  {
+  border: 1px solid black;
+}
+
+
+
+.content-small {
+  display: flex;
+  flex-direction: column;
+  width: 240px;
+}
+
+.cookie {
+  border: 1px solid black;
+}
+
+.news-bites {
+  border: 1px solid black;
+}
